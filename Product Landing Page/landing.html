@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class="web-wrap">
+    <header id="header">
+        <div class="logo">
+            <img src="https://i.pinimg.com/564x/ac/83/2d/ac832d5a2de06485fc25c6a09a71a803.jpg" 
+            alt="DUCATI" 
+            id="header-img">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#trailer">Trailer</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#price">Price</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="space"></div>
+        <div id="title">
+            <h1>Panigale <strong>V4</strong> R</h1>
+        </div>
+        <div class="space"></div>
+        <section id="trailer">
+            <iframe id="video"
+            width="840" 
+            height="475" 
+            src="https://www.youtube.com/embed/COrAcPrR8yo?si=CwTKGsSZB24dw68M" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+        </iframe>
+        </section>
+        <section id="about">
+            <div class="grid">
+            <h3 class="about">About</h3>
+            <p>
+                The Ducati Panigale V4 R is a high-performance superbike with a 998 cc V4 engine producing up to 234 hp with a racing exhaust. 
+                It features an aluminum frame, Öhlins adjustable suspension, Brembo brakes, and forged aluminum wheels. 
+                Advanced electronics include multiple riding modes, traction control, wheelie control, slide control, engine brake control, and cornering ABS. 
+                Its aerodynamic design includes integrated winglets for increased downforce. The bike has a 5-inch TFT display and weighs around 172 kg (379 lbs) dry.
+            </p>
+        </div>
+        </section>
+        <section id="price">
+            <div class="level">Panigale V4 R
+            <h3>$40,000</h3>
+            <button class="btn">BUY</button>
+            </div>
+        </section> 
+        <section id="fill">
+            <div class="sign">
+            <form  id="form" action="https://www.freecodecamp.com/email-submit">
+                <h2>Join Ducati</h2>
+                <input type="email" id="email" name="email" placeholder="Enter your Email Address">
+                <input type="submit" id="submit" value="SUBMIT" />
+            </form>
+            </div>
+        </section>
+        </div>  
+    </div>
+    <footer class="footer">
+        <span class="span"></span>
+        <ul>
+            <li><a href="">Privacy</a></li>
+            <li><a href="">Terms</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <span>meow meow</span>
+    </footer>
+</body>
+</html>
